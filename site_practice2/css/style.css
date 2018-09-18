@@ -1,0 +1,252 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body, ul {
+  margin: 0;
+  padding: 0;
+  font-family:'Noto Sans Japanese', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  color: #333;
+}
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0);
+}
+.header-container{
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header-container ul{
+  display: flex;
+}
+.header-container li{
+  margin-right: 20px;
+}
+.header-container li:last-child{
+  margin-right: 0;
+}
+.header-container a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+.header-container a:hover{
+  opacity:0.7;
+}
+.header-container1 a{
+  font-size: 25px;
+}
+.keyvisual{
+  height:600px;
+  background-image: url(../img/bg_keyvisual.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+.keyvisual-container{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.keyvisual-container h1{
+  font-weight: bold;
+  font-size: 80px;
+}
+.keyvisual-container p{
+  font-size: 15px;
+  text-align: center;
+  margin: 0 310px;
+  margin-bottom: 30px;
+}
+.service-container{
+  text-align: center;
+  padding: 80px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  height: 250px;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.service-container p{
+  font-size: 15px;
+}
+button1{
+  border-radius: 10px;
+  background-color:#9ef;
+  font-size:17px;
+  font-weight:bold;
+  border-style: none;
+  display:block;
+  color: #fff;
+  padding: 10px 30px;
+}
+button1:hover{
+  opacity:0.7;
+}
+.Service h2{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  margin-bottom: auto;
+}
+.service-container h3{
+  font-weight: bold;
+}
+.title{
+  margin: 0 30px;
+}
+.about{
+  height:680px;
+  background-color: #EEE;
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+.about-img{
+  float: right;
+  margin-left: 60px;
+  width: auto;
+  height: auto;
+}
+.about-container{
+  padding: 150px;
+  text-align: right;
+}
+.about-container h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+.about-container h3{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.contact{
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
+.contact h2{
+  font-weight: bold;
+  font-size: 35px;
+  margin: 30px;
+  margin-bottom: auto;
+}
+.contact-container{
+  display:table-caption;
+}
+form{
+  width: 400px;
+}
+button2{
+  border-radius: 10px;
+  background-color:#9ef;
+  font-size:17px;
+  font-weight:bold;
+  display:block;
+  color: #fff;
+  padding: 15px 30px;
+  width: 130px;
+  margin: 40px auto;
+}
+footer{
+  height:90px;
+  background-color:#9ef;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+  display: block;
+}
+footer p{
+  margin-top:15px;
+}
+.twitter{
+  margin-top: 25px;
+  margin-right:25px;
+}
+.line1{
+  height: 1px;
+  border: none;
+  border-top: 3px #9ef solid;
+  width: 50px;
+}
+.line2{
+  height: 1px;
+  border: none;
+  border-top: 3px #9ef solid;
+  width: 50px;
+  margin-left: 405px;
+}
+.line3{
+  height: 1px;
+  border: none;
+  border-top: 3px #9ef solid;
+  width: 50px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.maru1{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px #666;
+  margin-bottom: 10px;
+}
+.maru2{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px #666;
+  margin-bottom: 10px;
+}
+.maru3{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px #666;
+  margin-bottom: 10px;
+}
+.namemail{
+  display:inline-flex;
+}
+.name{
+   height: 35px;
+   width: 200px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border: 1.5px solid #9ef;
+   font-family: initial;
+}
+.mail{
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1.5px solid #CCC;
+  font-family: initial;
+}
+.content{
+  width: 410px;
+  border-radius: 5px;
+  border: 1.5px solid #CCC;
+  font-family: initial;
+}
+button2:hover{
+  opacity:0.7;
+}

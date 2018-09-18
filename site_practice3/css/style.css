@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+body{
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  font-family:'Ubuntu', sans-serif;
+}
+.button{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  margin: 40px auto 60px;
+  border: solid 2px #222;
+  padding: 5px;
+  width: 250px;
+  position:relative;
+}
+.arrow{
+  height: 13px;
+  width: 10px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.line{
+  height: 1px;
+  border: none;
+  border-top: 1px #C0C0C0 solid;
+  width: 70%;
+  margin: 0 auto;
+}
+h2{
+  text-align: center;
+  color: #66FF66;
+  font-size: 20px;
+  margin: 60px auto 20px;
+}
+/* header */
+.header-container{
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header-container ul{
+  display: flex;
+}
+.header-container li{
+  margin-right: 20px;
+}
+.header-container li:last-child{
+  margin-right: 0;
+}
+.header-container a{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  color: #222;
+}
+.header-containera:hover{
+  opacity: 0.7;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+}
+/* keyvisual */
+.keyvisual{
+  height: 700px;
+  background-image: url(../img/hero_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.keyvisual-container{
+  height: 700px;
+  position: relative;
+  padding-top: 60px;
+}
+.herologo{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+/* about */
+.about{
+  height: 300px;
+}
+.about-container p{
+  margin: auto 200px;
+  font-size: 16px;
+}
+/* news-pickup */
+.news-pickup{
+  height: 400px;
+}
+.newspickup-button{
+  display: flex;
+  width: 650px;
+  margin: auto;
+}
+.news{
+  overflow-y: scroll;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  line-height: 3;
+}
+
+/* search */
+.search{
+  height: 200px;
+}
+.search-container p{
+  text-align:center;
+}
+input{
+width: 500px;
+height: 35px;
+display: block;
+margin: 20px auto;
+border-radius: 50px;
+background-color: #EEE;
+border: none;
+}
+form{
+  position: relative;
+}
+.search_icon{
+  position: absolute;
+  top: -9px;
+  right: 450px;
+  width: 15px;
+  height: 15px;
+  float:right;
+}
+/* Apartment */
+.apartmant{
+  height: 570px;
+}
+.images{
+  margin: 30px 100px 30px 200px;
+}
+.images a{
+  text-decoration: none;
+  color: #111;
+}
+.images ul li{
+  float: left;
+  list-style: none;
+  width: 300px;
+  margin: 10px 10px;
+}
+.image ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* footer */
+footer{
+  height: 60px;
+  line-height: 60px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
