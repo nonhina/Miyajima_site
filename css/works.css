@@ -62,3 +62,12 @@ body {
     body .site .box4 h3, body .site .box4 p {
       text-align: right;
       margin: 0; }
+    body .site .box5 {
+      float: left;
+      margin-right: 10px; }
+      body .site .box5 a {
+        color: #333;
+        text-decoration: underline; }
+      body .site .box5 h3, body .site .box5 p {
+        text-align: left;
+        margin: 0; }
