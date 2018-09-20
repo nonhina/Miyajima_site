@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: linear-gradient(90deg, #fff 0%, #fff 20%, #bcffdd 20%, #bcffdd 80%, #fff 80%, #fff 100%);
+  background: linear-gradient(90deg, #fff 0%, #fff 20%, #d6ffd6 20%, #d6ffd6 80%, #fff 80%, #fff 100%);
   font-family: 'Kanit', sans-serif; }
   body ul {
     display: flex;
@@ -19,55 +19,19 @@ body {
         color: #444; }
       body ul li a:hover {
         font-weight: bold; }
-  body .site {
-    text-align: center;
-    height: 100px; }
-    body .site ul {
-      display: inline-grid; }
-      body .site ul li {
-        width: 800px; }
-    body .site .box1 .img1 {
-      float: left;
-      margin-right: 10px; }
-    body .site .box1 a {
-      color: #333;
-      text-decoration: underline; }
-    body .site .box1 h3, body .site .box1 p {
-      text-align: left;
-      margin: 0; }
-    body .site .box2 .img2 {
-      float: right;
-      margin-left: 10px; }
-    body .site .box2 a {
-      color: #333;
-      text-decoration: underline; }
-    body .site .box2 h3, body .site .box2 p {
-      text-align: right;
-      margin: 0; }
-    body .site .box3 .img3 {
-      float: left;
-      margin-right: 10px; }
-    body .site .box3 a {
-      color: #333;
-      text-decoration: underline; }
-    body .site .box3 h3, body .site .box3 p {
-      text-align: left;
-      margin: 0; }
-    body .site .box4 .img4 {
-      float: right;
-      margin-left: 10px; }
-    body .site .box4 a {
-      color: #333;
-      text-decoration: underline; }
-    body .site .box4 h3, body .site .box4 p {
-      text-align: right;
-      margin: 0; }
-    body .site .box5 {
-      float: left;
-      margin-right: 10px; }
-      body .site .box5 a {
-        color: #333;
-        text-decoration: underline; }
-      body .site .box5 h3, body .site .box5 p {
-        text-align: left;
-        margin: 0; }
+  body .works {
+    margin-top: 80px; }
+    body .works h3, body .works p {
+      margin: 3px auto; }
+    body .works p {
+      width: 400px;
+      font-size: 15px; }
+    body .works img {
+      margin-right: 5px; }
+    body .works ul {
+      display: flex;
+      justify-content: center; }
+    body .works a:hover {
+      color: #696969; }
+    body .works .box {
+      margin-bottom: 50px; }
