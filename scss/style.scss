@@ -1,60 +1,60 @@
+@media screen and (max-width: 739px) {
+  .menu{
+    width: 155px;
+    a{
+      margin-right:9px;
+    }
+  }
+}
 body{
   margin: 0;
   padding: 0;
   width: 100%;
-  background: linear-gradient(90deg, #fff 0%,#fff 20%, #FF9 20%,#ff9 80%,#fff 80%,#fff 100%);
+  background: linear-gradient(90deg, #fff 0%,#fff 20%, #ffffbc 20%,#ffffbc 80%,#fff 80%,#fff 100%);
   font-family: 'Kanit', sans-serif;
-  main{
-    h1{
-      text-align: center;
-      margin: 30px auto 80px;
-    }
-
-      .sun{
-        width: 8%;
-        position: absolute;
-        left: 46%;
-      }
-
-      .cat1{
-        width: 35%;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-      }
-
-      .fish{
-        width: 10%;
-        position:absolute;
-        bottom: 0;
-        left:  44%;
-      }
-
-      .cat2{
-        width: 35%;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-      }
-
-      .menu{
-        ul{
-          width: 30%;
-          display: flex;
-          padding: 0;
-          margin: 300px auto;
-          li{
-            list-style: none;
-            margin: 0 auto;
-            font-size: 25px;
-            }
-            a{
-              text-decoration: none;
-              color: #333;
-            }a:hover{
-              font-weight: bold;
-            }
-            }
-          }
+  h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+  .menu{
+    height: 60px;
+    ul{
+      width: 30%;
+      display: flex;
+      padding: 0;
+      margin: 60px auto;
+      li{
+        list-style: none;
+        margin: 0 auto;
+        }
+        a{
+          text-decoration: none;
+          color: #696969;
+          font-weight: bold;
+          font-size: 20px;
+          height: 30px;
+        }a:hover{
+          color: #444;
+         }
+        }
+        .home{
+          color: #444;
+          border-bottom: 2px solid #444;
         }
       }
+      img{
+        width: 300px;
+        height: 300px;
+      }
+      .photo{
+        list-style: none;
+        float: left;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        top: 50px;
+        display: flex;
+        margin-left: -70px;
+      }
+    }

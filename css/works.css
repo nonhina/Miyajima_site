@@ -1,3 +1,16 @@
+@media screen and (max-width: 739px) {
+  header {
+    width: 360px; }
+    header a {
+      font-size: 15px; }
+  img {
+    width: 50px;
+    height: 100px; }
+  .works {
+    width: 400px; }
+    .works .box {
+      width: 400px; } }
+
 html {
   height: 100%; }
 
@@ -16,22 +29,28 @@ body {
       font-size: 18px; }
       body ul li a {
         text-decoration: none;
-        color: #444; }
-      body ul li a:hover {
+        color: #696969;
         font-weight: bold; }
+      body ul li a:hover {
+        color: #444; }
+      body ul li .works {
+        color: #444;
+        border-bottom: 2px solid #444; }
   body .works {
     margin-top: 80px; }
-    body .works h3, body .works p {
+    body .works h3 {
+      color: #696969;
       margin: 3px auto; }
     body .works p {
       width: 400px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin: 3px auto; }
     body .works img {
       margin-right: 5px; }
     body .works ul {
       display: flex;
       justify-content: center; }
     body .works a:hover {
-      color: #696969; }
+      color: #444; }
     body .works .box {
       margin-bottom: 50px; }

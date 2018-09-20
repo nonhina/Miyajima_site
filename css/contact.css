@@ -1,66 +1,89 @@
+@media screen and (max-width: 739px) {
+  header {
+    width: 360px; }
+    header a {
+      font-size: 15px; }
+  .boxes {
+    flex-direction: column; }
+    .boxes .box12 {
+      display: flex; }
+    .boxes .box34 {
+      display: flex; }
+    .boxes img {
+      width: 150px;
+      height: 150px; } }
+
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: linear-gradient(90deg, #fff 0%, #fff 20%, #b0c4de 20%, #b0c4de 80%, #fff 80%, #fff 100%);
+  background: linear-gradient(90deg, #fff 0%, #fff 20%, #d6d6ff 20%, #d6d6ff 80%, #fff 80%, #fff 100%);
   font-family: 'Kanit', sans-serif; }
   body ul {
     display: flex;
     justify-content: flex-end; }
     body ul li {
-      margin-right: 30px;
+      margin-right: 25px;
       list-style: none;
       font-size: 18px; }
       body ul li a {
         text-decoration: none;
-        color: #444; }
-      body ul li a:hover {
+        color: #696969;
         font-weight: bold; }
-  body main .box {
+      body ul li a:hover {
+        color: #444; }
+      body ul li .contact {
+        color: #444;
+        border-bottom: 2px solid #444; }
+  body main .boxes {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 200px; }
-    body main .box .box1 {
-      position: relative; }
-      body main .box .box1 .img1 {
+    body main .boxes .box1 {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      margin-right: 30px; }
+      body main .boxes .box1 .img1 {
         border-radius: 50%;
-        border: solid 3px #fffafa;
-        margin-right: 30px;
-        position: relative; }
-      body main .box .box1 .twitter {
+        border: solid 3px #fffafa; }
+      body main .boxes .box1 .twitter {
         position: absolute;
-        top: 34%;
-        right: 39%; }
-    body main .box .box2 {
-      position: relative; }
-      body main .box .box2 .img2 {
+        top: 105px;
+        left: 105px; }
+    body main .boxes .box2 {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      margin-right: 30px; }
+      body main .boxes .box2 .img2 {
         border-radius: 50%;
-        border: solid 3px #fffafa;
-        margin-right: 30px;
-        position: relative; }
-      body main .box .box2 .mail {
+        border: solid 3px #fffafa; }
+      body main .boxes .box2 .mail {
         position: absolute;
-        top: 34%;
-        right: 39%; }
-    body main .box .box3 {
-      position: relative; }
-      body main .box .box3 .img3 {
+        top: 105px;
+        left: 105px; }
+    body main .boxes .box3 {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      margin-right: 30px; }
+      body main .boxes .box3 .img3 {
         border-radius: 50%;
-        border: solid 3px #fffafa;
-        margin-right: 30px;
-        position: relative; }
-      body main .box .box3 .phone {
+        border: solid 3px #fffafa; }
+      body main .boxes .box3 .phone {
         position: absolute;
-        top: 34%;
-        right: 39%; }
-    body main .box .box4 {
+        top: 105px;
+        left: 102px; }
+    body main .boxes .box4 {
+      width: 300px;
+      height: 300px;
       position: relative; }
-      body main .box .box4 .img4 {
+      body main .boxes .box4 .img4 {
         border-radius: 50%;
-        border: solid 3px #fffafa;
-        position: relative; }
-      body main .box .box4 .facebook {
+        border: solid 3px #fffafa; }
+      body main .boxes .box4 .facebook {
         position: absolute;
-        top: 34%;
-        right: 32%; }
+        top: 105px;
+        left: 108px; }
