@@ -9,4 +9,4 @@ var loop = setInterval(function() {
         clone.clone(true).insertAfter($(".photo li:last"));
     }
     });
-}, 2000);
+}, 2500);
