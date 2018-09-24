@@ -1,14 +1,32 @@
 @media screen and (max-width: 739px) {
   header {
-    width: 360px; }
+    width: 250px;
+    margin: 0 auto; }
+    header ul {
+      padding: 0;
+      width: 220px;
+      margin: 20px auto 0; }
+      header ul li {
+        margin-right: auto; }
+      header ul li:last-child {
+        margin-right: 0; }
     header a {
-      font-size: 15px; }
-  .me {
-    width: 200px;
-    height: 200px; }
-  .profile {
-    flex-direction: column;
-    font-size: 13px; } }
+      font-size: 10px; }
+  main .me p {
+    margin-bottom: 10px !important; }
+  main .me img {
+    width: 150px;
+    height: 150px; }
+  main .profile {
+    font-size: 5px;
+    width: 350px !important;
+    display: flex; }
+    main .profile .Box1 li {
+      width: 92px; }
+    main .profile .Box2 li {
+      width: 165px; }
+  main .img1 {
+    display: none; } }
 
 body {
   margin: 0;
@@ -34,7 +52,7 @@ body {
         border-bottom: 2px solid #444; }
   body main p {
     text-align: center;
-    margin: 50px auto 30px; }
+    margin: 50px auto 40px; }
     body main p img {
       border-radius: 50%; }
   body main .profile {
@@ -43,10 +61,6 @@ body {
     margin: 0 auto; }
     body main .profile li {
       list-style: circle; }
-    body main .profile .box1 {
-      width: 90px; }
-    body main .profile .box2 {
-      width: 58px; }
   body main .img1 {
     position: absolute;
     bottom: 0;
