@@ -1,17 +1,17 @@
 @media screen and (max-width: 739px) {
   body header {
-    width: 250px;
+    width: 165px;
     margin: 0 auto; }
     body header ul {
       padding: 0;
       width: 220px;
       margin: 20px auto 0; }
       body header ul li {
-        margin-right: auto; }
+        margin-right: 25px; }
       body header ul li:last-child {
         margin-right: 0; }
     body header a {
-      font-size: 10px; }
+      font-size: 15px; }
   body img {
     width: 50px;
     height: 100px; }
@@ -20,9 +20,12 @@
     width: 400px; }
     body .works .box {
       width: 400px; }
-      body .works .box li, body .works .box p {
-        font-size: 5px;
+      body .works .box li {
+        font-size: 13px !important;
         width: 150px; }
+        body .works .box li p {
+          font-size: 10px !important;
+          width: 150px; }
       body .works .box .slideshow {
         width: 70px;
         height: 50px; } }

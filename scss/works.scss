@@ -1,21 +1,21 @@
 @media screen and (max-width: 739px) {
   body{
     header{
-      width: 250px;
+      width: 165px;
       margin: 0 auto;
       ul{
         padding: 0;
         width: 220px;
         margin: 20px auto 0;
         li{
-          margin-right: auto;
+          margin-right: 25px;
         }
         li:last-child{
           margin-right: 0;
         }
       }
       a{
-        font-size: 10px;
+        font-size: 15px;
       }
     }
     img{
@@ -27,9 +27,13 @@
       width: 400px;
       .box{
         width: 400px;
-        li,p{
-          font-size: 5px;
+        li{
+          font-size: 13px!important;
           width: 150px;
+          p{
+            font-size: 10px!important;
+            width: 150px;
+          }
         }
         .slideshow{
           width: 70px;

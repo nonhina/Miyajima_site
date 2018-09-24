@@ -1,6 +1,6 @@
 @media screen and (max-width: 739px) {
   header {
-    width: 250px;
+    width: 165px;
     margin: 0 auto; }
     header ul {
       padding: 0;
@@ -11,7 +11,7 @@
       header ul li:last-child {
         margin-right: 0; }
     header a {
-      font-size: 10px; }
+      font-size: 15px; }
   .boxes {
     flex-direction: column;
     margin: 50px auto 0 !important;

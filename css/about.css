@@ -1,6 +1,6 @@
 @media screen and (max-width: 739px) {
   header {
-    width: 250px;
+    width: 165px;
     margin: 0 auto; }
     header ul {
       padding: 0;
@@ -11,14 +11,14 @@
       header ul li:last-child {
         margin-right: 0; }
     header a {
-      font-size: 10px; }
+      font-size: 15px; }
   main .me p {
     margin-bottom: 10px !important; }
   main .me img {
     width: 150px;
     height: 150px; }
   main .profile {
-    font-size: 5px;
+    font-size: 10px;
     width: 350px !important;
     display: flex; }
     main .profile .Box1 li {
