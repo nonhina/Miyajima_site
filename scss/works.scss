@@ -89,12 +89,16 @@ body{
     ul{
       display: flex;
       justify-content: center;
+      padding: 0;
     }
     a:hover{
       color:#444;
     }
     .box{
       margin-bottom: 50px;
+      .site{
+        margin-right: 0;
+      }
     }
   }
 }

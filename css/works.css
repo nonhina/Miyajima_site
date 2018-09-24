@@ -68,8 +68,11 @@ body {
       margin-right: 5px; }
     body .works ul {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      padding: 0; }
     body .works a:hover {
       color: #444; }
     body .works .box {
       margin-bottom: 50px; }
+      body .works .box .site {
+        margin-right: 0; }
